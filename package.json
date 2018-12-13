@@ -1,0 +1,13 @@
+{
+  "name": "electron-firebase",
+  "version": "1.0.0",
+  "description": "Electron app with firebase",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "DagHalfvild",
+  "devDependencies": {
+    "electron": "^3.0.7"
+  }
+}
