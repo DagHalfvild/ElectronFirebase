@@ -10,7 +10,8 @@ function createWindow () {
   mainWindow = new BrowserWindow({width: 800, height: 600})
 
   // and load the index.html of the app.
-  mainWindow.loadFile('index.html')
+ // mainWindow.loadFile('index.html') // charge le index.html de base de Electron
+  mainWindow.loadFile('angular-electron/src/app/app.component.html') // charge correctement un template angular 
 
   // Open the DevTools.
   // mainWindow.webContents.openDevTools()
